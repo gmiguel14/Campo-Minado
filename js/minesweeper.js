@@ -359,7 +359,7 @@ function loadGame(time){
     if (games[i][0] == time){
       $("#mineSweeperGame").html(games[i][1]);
       $("#mineSweeperGame").removeClass('gameOver');
-      $('#winLossRow').text("Minesweeper in Javascript");
+      $('#winLossRow').text("Campo Minado");
       makeClickable();
     }
   }
