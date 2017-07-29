@@ -271,7 +271,7 @@ function endGameWin(){
 * endGameWin congratulates the user, shows flags where the mines were, and adds the
 * gameOver class to the table to prevent further clicks.
 */
-  $('#winLossRow').text('You win! Congratulations!');
+  $('#winLossRow').text('Você escapou do GEMIDÃO DO CAMPO MINADO!');
   $('.mine').each(function() {
     $(this).html('<img src="img/glyphicons_266_flag.png" />');
   });
@@ -282,7 +282,7 @@ function endGameLose(){
 * endGameLose shows all the mines in the game, alerts the user to their loss, and adds the
 * gameOver class to the table to prevent further clicks.
 */
-  $('#winLossRow').text('You lose!');
+  $('#winLossRow').text('VOCÊ CAIU NO GEMIDÃO DO CAMPO MINADO!!!');
   $('.mine').each(function() {
     var sound = document.getElementById("audio");
     sound.play();
