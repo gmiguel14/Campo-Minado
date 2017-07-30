@@ -390,7 +390,7 @@ function makeMineSweeper(){
   var gridSize = $('#gridSize').val();
   var numMines = $('#numMines').val();
   $("#mineSweeperGame").removeClass('gameOver');
-  $('#winLossRow').text("Minesweeper in Javascript");
+  $('#winLossRow').text("Campo Minado");
   makeGame(gridSize,numMines);
 }
 $(document).ready(function() {

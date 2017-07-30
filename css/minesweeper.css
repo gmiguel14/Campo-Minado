@@ -31,3 +31,20 @@ h1 {
 a {
   color: #555;
 }
+
+.background{
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+table#mineSweeperGame {
+    border: 10px solid #9c9c9c;
+    box-shadow: 12px 0 15px -7px rgba(44, 51, 60, 0.8), -12px 15px 10px -6px rgba(44, 51, 60, 0.8);
+}
+
+
+.notmine {
+    text-align: center;
+}
